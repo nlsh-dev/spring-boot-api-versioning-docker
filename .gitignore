@@ -1,0 +1,21 @@
+### Gradle Build Artifacts ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### IntelliJ IDEA Configuration ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### Local Environment & System Files ###
+.DS_Store
+Thumbs.db
+*.log
+
+### Docker Local Volumes (if mapped locally) ###
+mysql_data/
